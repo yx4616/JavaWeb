@@ -2,7 +2,6 @@ package service;
 
 import dao.EntDao;
 import model.Enterprise;
-
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +22,7 @@ EntDao entDao = new EntDao();
 //添加
     public void addEnt(Enterprise product) {
         try {
-            entDao. addEnt( product);
+            entDao. addEnt(product);
         } catch (SQLException e) {
             e.printStackTrace();
         }

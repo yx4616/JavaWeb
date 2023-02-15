@@ -4,7 +4,6 @@ import model.Enterprise;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.MapListHandler;
 import utils.DataSourceUtils;
-
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
@@ -21,6 +20,6 @@ public class EntDao {
     public void addEnt(Enterprise ent) throws SQLException {
         QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "insert into t_enterprise_info(ent_id, ent_name, begin_date, addr, reg_capital) value (?,?,?,?,?)";
-        r.update(sql,ent.getEnt_id(),ent.getEnt_name(),ent.getBegin_date(),ent.getAddr(),ent.getReg_capital());
+        r.update(sql,ent.getEnt_id(),ent.getEnt_name(),ent.getBegin_date(),ent.getAddress(),ent.getReg_capital());
     }
 }

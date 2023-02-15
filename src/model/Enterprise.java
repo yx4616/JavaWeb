@@ -1,11 +1,11 @@
 package model;
 
 public class Enterprise {
-    private String Ent_id;
-    private String Ent_name;
-    private String Begin_date;
-    private String Addr;
-    private double Reg_capital;
+    private String Ent_id; //企业编号
+    private String Ent_name; //企业名称
+    private String Begin_date; //建立时间
+    private String Address; //详细地址
+    private double Reg_capital; //注册资本
 
     public String getEnt_id() {
         return Ent_id;
@@ -31,12 +31,12 @@ public class Enterprise {
         Begin_date = begin_date;
     }
 
-    public String getAddr() {
-        return Addr;
+    public String getAddress() {
+        return Address;
     }
 
-    public void setAddr(String addr) {
-        Addr = addr;
+    public void setAddress(String Address) {
+        Address = Address;
     }
 
     public double getReg_capital() {

@@ -19,7 +19,7 @@ public class AddEnt extends HttpServlet {
         enterprise.setEnt_id(req.getParameter("textfield"));
         enterprise.setEnt_name(req.getParameter("textfield2"));
         enterprise.setBegin_date(req.getParameter("textfield4"));
-        enterprise.setAddr(req.getParameter("textfield6"));
+        enterprise.setAddress(req.getParameter("textfield6"));
         enterprise.setReg_capital(Double.parseDouble(req.getParameter("textfield7")));
         new EntService().addEnt(enterprise);
         req.getRequestDispatcher("index.jsp").forward(req, resp);
