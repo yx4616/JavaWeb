@@ -5,7 +5,7 @@
       <element id="javaee-facet-resources" facet="rjxyJava/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="rjxyJava" />
+          <element id="module-output" name="constructionsystem" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="lib" />
