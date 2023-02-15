@@ -15,7 +15,6 @@ public class AddEnt extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Enterprise enterprise = new Enterprise();
-
         enterprise.setEnt_id(req.getParameter("textfield"));
         enterprise.setEnt_name(req.getParameter("textfield2"));
         enterprise.setBegin_date(req.getParameter("textfield4"));

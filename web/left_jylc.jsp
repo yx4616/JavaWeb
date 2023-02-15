@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,7 +11,7 @@ href="css/left.css" type=text/css rel=stylesheet>
 <body>
 <table width="190" border="0" cellspacing="8">
   <tr>
-    <td class="second_menu">&nbsp;&nbsp;<a href="project_list.jsp" target="content">&#8250;&#8250;建设工程项目施工报建申请</a></td>
+    <td class="second_menu">&nbsp;&nbsp;<a href="${pageContext.request.contextPath}/selectProject" target="content">&#8250;&#8250;建设工程项目施工报建申请</a></td>
   </tr>
   <tr>
     <td><span class="second_menu">&nbsp;&nbsp;<a href="error.html" target="content">&#8250;&#8250;入场交易登记</a></span></td>

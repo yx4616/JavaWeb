@@ -13,7 +13,7 @@ href="css/top.css" type=text/css rel=stylesheet>
   <tr>
     <td width="1024" height="140" colspan="2" valign="bottom" class="menu"><table width="586" height="29" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td width="466">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="left_xtgl.html" target="left">系统管理</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="left_ywcl.jsp" target="left">&nbsp;业务处理</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="left_jylc.html" target="left">交易流程</a></td>
+        <td width="466">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="left_xtgl.html" target="left">系统管理</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="left_ywcl.jsp" target="left">&nbsp;业务处理</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="left_jylc.jsp" target="left">交易流程</a></td>
         <td width="112" class="menu"><a href="javascript:window.close();">退出系统</a></td>
       </tr>
     </table></td>

@@ -19,7 +19,7 @@ href="css/left.css" type=text/css rel=stylesheet>
     <td><span class="second_menu">&nbsp;&nbsp;<a href="error.html" target="content">&#8250;&#8250;浏览流程</a></span></td>
   </tr>
   <tr>
-    <td><span class="second_menu">&nbsp;&nbsp;<a href="${pageContext.request.contextPath}/selectAll" target="content">&#8250;&#8250;企业信息管理</a></span></td>
+    <td><span class="second_menu">&nbsp;&nbsp;<a href="${pageContext.request.contextPath}/selectEnt" target="content">&#8250;&#8250;企业信息管理</a></span></td>
   </tr>
   <tr>
     <td><span class="second_menu">&nbsp;&nbsp;<a href="error.html" target="content">&#8250;&#8250;释放专家抽取占用</a></span></td>

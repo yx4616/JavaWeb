@@ -21,7 +21,8 @@ href="css/content.css" type=text/css rel=stylesheet>
     <td width="100%" height="30" bgcolor="#80C6FF" class="titletxt">&#8226;建设工程报建—项目信息录入（以下带<span class="txtred">*</span>为必填项）</td>
   </tr>
   <tr>
-    <td height="30" align="center"><form id="form1" name="form1" method="post" action="">
+    <td height="30" align="center">
+      <form id="form1" name="form1" method="get" action="${pageContext.request.contextPath}/AddProject">
       <table width="100%" border="1" align="center" cellpadding="0" cellspacing="0" bgcolor="#E7E7E7">
         <tr>
           <td width="24%" height="30" align="right" class="txt"><span class="txt">工程编号：</span></td>
