@@ -6,10 +6,9 @@
   <link rel="stylesheet" type="text/css" href="css/font.css">
   <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
-
 <body topmargin="0" leftmargin="0" bottommargin="0">
 <table width="750" border="0" align="center" cellpadding="0" cellspacing="0">
-  <form name="form1" method="get" action="${pageContext.request.contextPath}/DeleteManger">
+  <form name="form1" method="get" action="#">
     <tr bgcolor="#FFCF60">
       <td height="20" colspan="2">
         <div align="center"><font color="#FFFFFF">用户留言管理</font></div>
@@ -22,7 +21,7 @@
             <td width="357" height="20" bgcolor="#FFFFFF">
               <div align="center">留言主题</div>
             </td>
-            <td width="80" bgcolor="#FFFFFF">
+            <td width="80" bgcolor="#FFFFFF">.
               <div align="center">留言者</div>
             </td>
             <td width="156" bgcolor="#FFFFFF">
@@ -52,7 +51,7 @@
               </td>
               <td height="20" bgcolor="#FFFFFF">
                 <div align="center">
-                  <input type="checkbox" name=12 value=12>
+                  <input type="checkbox" name="test" value=${g.id}>
                 </div>
               </td>
             </tr>
@@ -65,9 +64,22 @@
     </tr>
     <tr>
       <td width="100%" bgcolor="#FFFFFF" align="right">
-        <input type="submit" value="删除选项" class="buttoncss"></td>
+        <input type="submit" value="删除选项" class="buttoncss" onclick="show()"></td>
     </tr>
   </form>
+  <script type="text/javascript">
+      function show(){
+          obj = document.getElementsByName("test");
+          check_val = [];
+          for(k in obj){
+              if(obj[k].checked)
+                  check_val.push(obj[k].value);
+          }
+          alert("删除评论id"+check_val);
+          window.location.href="DeleteManger?id="+check_val;
+      }
+  </script>
+
 </table>
 </body>
 </html>

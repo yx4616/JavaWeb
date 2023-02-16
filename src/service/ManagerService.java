@@ -19,4 +19,12 @@ public class ManagerService {
         }
         return  list;
     }
+
+    public void deleteManager(String t) {
+        try {
+            manageDao.deleteManager(Integer.parseInt(t));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }

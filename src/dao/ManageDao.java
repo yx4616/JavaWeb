@@ -15,4 +15,10 @@ public class ManageDao {
         String sql = "SELECT * from shopdb.t_message";
         return  r.query(sql,new MapListHandler());
     }
+
+    public void deleteManager(int id) throws SQLException {
+        QueryRunner r = new QueryRunner(DataSourceUtils.getDataSource());
+        String sql ="delete  from shopdb.t_message where id=?";
+        r.update(sql,id);
+    }
 }
